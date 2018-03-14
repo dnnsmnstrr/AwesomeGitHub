@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func logo(_ sender: Any) {
-        if let url = URL(string: "https://www.github.com/") {
+        if let url = URL(string: "https://github.com/dnnsmnstrr/AwesomeGitHub") {
             UIApplication.shared.open(url, options: [:])
         }
     }
