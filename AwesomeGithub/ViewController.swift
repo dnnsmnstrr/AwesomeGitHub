@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func logo(_ sender: Any) {
+        if let url = URL(string: "https://www.github.com/") {
+            UIApplication.shared.open(url, options: [:])
+        }
+    }
+    
+    @IBAction func awesome(_ sender: Any) {
+        if let url = URL(string: "https://github.com/sindresorhus/awesome") {
+            UIApplication.shared.open(url, options: [:])
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

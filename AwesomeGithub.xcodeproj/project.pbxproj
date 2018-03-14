@@ -13,8 +13,6 @@
 		B98E674B2058A62700BD474B /* AwesomeGithub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B98E67492058A62700BD474B /* AwesomeGithub.xcdatamodeld */; };
 		B98E674D2058A62700BD474B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98E674C2058A62700BD474B /* Assets.xcassets */; };
 		B98E67502058A62700BD474B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98E674E2058A62700BD474B /* LaunchScreen.storyboard */; };
-		B98E675B2058A62800BD474B /* AwesomeGithubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E675A2058A62800BD474B /* AwesomeGithubTests.swift */; };
-		B98E67662058A62800BD474B /* AwesomeGithubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E67652058A62800BD474B /* AwesomeGithubUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		B98E674F2058A62700BD474B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B98E67512058A62700BD474B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B98E67562058A62800BD474B /* AwesomeGithubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeGithubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B98E675A2058A62800BD474B /* AwesomeGithubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeGithubTests.swift; sourceTree = "<group>"; };
-		B98E675C2058A62800BD474B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B98E67612058A62800BD474B /* AwesomeGithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeGithubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B98E67652058A62800BD474B /* AwesomeGithubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeGithubUITests.swift; sourceTree = "<group>"; };
-		B98E67672058A62800BD474B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				B98E67412058A62700BD474B /* AwesomeGithub */,
-				B98E67592058A62800BD474B /* AwesomeGithubTests */,
-				B98E67642058A62800BD474B /* AwesomeGithubUITests */,
 				B98E67402058A62700BD474B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				B98E67492058A62700BD474B /* AwesomeGithub.xcdatamodeld */,
 			);
 			path = AwesomeGithub;
-			sourceTree = "<group>";
-		};
-		B98E67592058A62800BD474B /* AwesomeGithubTests */ = {
-			isa = PBXGroup;
-			children = (
-				B98E675A2058A62800BD474B /* AwesomeGithubTests.swift */,
-				B98E675C2058A62800BD474B /* Info.plist */,
-			);
-			path = AwesomeGithubTests;
-			sourceTree = "<group>";
-		};
-		B98E67642058A62800BD474B /* AwesomeGithubUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B98E67652058A62800BD474B /* AwesomeGithubUITests.swift */,
-				B98E67672058A62800BD474B /* Info.plist */,
-			);
-			path = AwesomeGithubUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98E675B2058A62800BD474B /* AwesomeGithubTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98E67662058A62800BD474B /* AwesomeGithubUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
